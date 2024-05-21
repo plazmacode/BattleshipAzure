@@ -22,6 +22,11 @@ steps:
   inputs:
     restoreSolution: '$(solution)'
 
+- task: UnitySetupTask@1
+  inputs:
+    versionSelectionMode: 'project'
+    unityProjectPath: 'C:\Users\danie\OneDrive - EaDania\Repos\BattleshipAzure'
+
 - task: UnityBuildTask@3
   inputs:
     buildTarget: 'standalone'
