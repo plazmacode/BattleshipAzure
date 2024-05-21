@@ -28,7 +28,7 @@ steps:
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
 
-- task: VSTest@2
+- task: UnityTestTask@1
   inputs:
-    platform: '$(buildPlatform)'
-    configuration: '$(buildConfiguration)'
+    unityProjectPath: 'C:\Users\danie\OneDrive - EaDania\Repos\BattleshipAzure'
+    unityVersion: '2022.3.20f1'
