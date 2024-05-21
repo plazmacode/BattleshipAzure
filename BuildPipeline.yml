@@ -25,17 +25,17 @@ steps:
 - task: UnitySetupTask@1
   inputs:
     versionSelectionMode: 'project'
-    unityProjectPath: 'C:\Users\danie\OneDrive - EaDania\Repos\BattleshipAzure'
+    unityProjectPath: 'C:\Users\danie\OneDrive_-_EaDania\Repos\BattleshipAzure'
 
 - task: UnityBuildTask@3
   inputs:
     buildTarget: 'standalone'
-    unityProjectPath: 'C:\Users\danie\OneDrive - EaDania\Repos\BattleshipAzure'
+    unityProjectPath: 'C:\Users\danie\OneDrive_-_EaDania\Repos\BattleshipAzure'
     versionSelectionMode: 'project'
     outputPath: '$(Build.BinariesDirectory)'
     outputFileName: 'BattleshipsAzure'
 
 - task: UnityTestTask@1
   inputs:
-    unityProjectPath: 'C:\Users\danie\OneDrive - EaDania\Repos\BattleshipAzure'
+    unityProjectPath: 'C:\Users\danie\OneDrive_-_EaDania\Repos\BattleshipAzure'
     unityVersion: '2022.3.20f1'
