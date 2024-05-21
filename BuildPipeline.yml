@@ -22,13 +22,15 @@ steps:
   inputs:
     restoreSolution: '$(solution)'
 
-- task: VSBuild@1
+- task: UnityBuildTask@3
   inputs:
-    solution: '$(solution)'
-    platform: '$(buildPlatform)'
-    configuration: '$(buildConfiguration)'
+    buildTarget: 'standalone'
+    unityProjectPath: '''C:\Users\danie\OneDrive - EaDania\Repos\BattleshipAzure'''
+    versionSelectionMode: 'project'
+    outputPath: '$(Build.BinariesDirectory)'
+    outputFileName: 'BattleshipsAzure'
 
 - task: UnityTestTask@1
   inputs:
-    unityProjectPath: 'C:\Users\danie\OneDrive - EaDania\Repos\BattleshipAzure'
+    unityProjectPath: 
     unityVersion: '2022.3.20f1'
