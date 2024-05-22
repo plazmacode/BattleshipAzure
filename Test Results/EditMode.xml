@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="2" result="Passed" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2024-05-22 08:09:07Z" end-time="2024-05-22 08:09:07Z" duration="0.1010614">
+  <test-suite type="TestSuite" id="1009" name="BattleshipAzure" fullname="BattleshipAzure" runstate="Runnable" testcasecount="2" result="Passed" start-time="2024-05-22 08:09:07Z" end-time="2024-05-22 08:09:07Z" duration="0.101061" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties />
+    <test-suite type="Assembly" id="1013" name="Tests.dll" fullname="C:/Users/danie/OneDrive - EaDania/Repos/BattleshipAzure/Library/ScriptAssemblies/Tests.dll" runstate="Runnable" testcasecount="2" result="Passed" start-time="2024-05-22 08:09:07Z" end-time="2024-05-22 08:09:07Z" duration="0.049611" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="32060" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="EditMode" />
+      </properties>
+      <test-suite type="TestFixture" id="1010" name="NewTestScript" fullname="NewTestScript" classname="NewTestScript" runstate="Runnable" testcasecount="2" result="Passed" start-time="2024-05-22 08:09:07Z" end-time="2024-05-22 08:09:07Z" duration="0.047049" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-case id="1011" name="NewTestScriptSimplePasses" fullname="NewTestScript.NewTestScriptSimplePasses" methodname="NewTestScriptSimplePasses" classname="NewTestScript" runstate="Runnable" seed="506749036" result="Passed" start-time="2024-05-22 08:09:07Z" end-time="2024-05-22 08:09:07Z" duration="0.013286" asserts="0">
+          <properties />
+        </test-case>
+        <test-case id="1012" name="NewTestScriptWithEnumeratorPasses" fullname="NewTestScript.NewTestScriptWithEnumeratorPasses" methodname="NewTestScriptWithEnumeratorPasses" classname="NewTestScript" runstate="Runnable" seed="898368798" result="Passed" start-time="2024-05-22 08:09:07Z" end-time="2024-05-22 08:09:07Z" duration="0.009057" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+          </properties>
+        </test-case>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>
